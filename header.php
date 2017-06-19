@@ -65,6 +65,12 @@
            </ul>
         </section>
 </div>
+   <div class="woo-login">
+       <ul>
+           <li><a href="#">a</a></li>
+           <li>  <a class="cart-customlocation" href="<?php echo wc_get_cart_url(); ?>" title="<?php _e( 'View your shopping cart' ); ?>"><?php echo sprintf ( _n( '%d item', '%d items', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?> </a></li>
+       </ul>
+   </div>
     </div><!--.container--->
 </div><!--.headertop-->
 <div class="clear"></div>
@@ -75,10 +81,10 @@
   </div>
     </div>
    <div class="head-menu col-md-9 pull-right">
-        <div class="mainmenu noPadd col-md-12 rht">
+    <div class="mainmenu noPadd col-md-12 rht">
    <?php $defaults = array( 'menu' => 'main-menu', 'container' => ' ', 'container_class' => '', 'container_id' => '', 'menu_class' => '', 'theme_location' => 'primary' );
 wp_nav_menu( $defaults ); ?>
-    </div>
+    </div><!--.mainmenu-->
 </div><!--.head-menu-->
 </div><!--.container-->
 </div>
