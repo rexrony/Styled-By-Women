@@ -69,25 +69,18 @@
 </div><!--.headertop-->
 <div class="clear"></div>
 <div class="headerbottom">
+ <div class="container">
   <div class="head-left col-md-3 noPadd lft">
-   <?php get_search_form(); ?>
+ <div class="sitelogo noPadd revealOnScroll" data-animation="flipInX"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php echo $options['logos'] ; ?></a>
+  </div>
     </div>
-  <div class="head-right col-md-3 noPadd rht">
-   <section>
-    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-         <a class="cart-customlocation" href="<?php echo wc_get_cart_url(); ?>" title="<?php _e( 'View your shopping cart' ); ?>"><?php echo sprintf ( _n( '%d item', '%d items', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?> </a>
-   </section>
-
-    </div>
-   <div class="clear"></div>
-   <div class="head-menu">
-       <div class="container">
-        <div class="mainmenu noPadd ">
+   <div class="head-menu col-md-9 pull-right">
+        <div class="mainmenu noPadd col-md-12 rht">
    <?php $defaults = array( 'menu' => 'main-menu', 'container' => ' ', 'container_class' => '', 'container_id' => '', 'menu_class' => '', 'theme_location' => 'primary' );
 wp_nav_menu( $defaults ); ?>
     </div>
-</div><!--.container-->
 </div><!--.head-menu-->
+</div><!--.container-->
 </div>
 
 </header><!-- .site-header -->
