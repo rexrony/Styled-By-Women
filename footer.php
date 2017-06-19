@@ -18,45 +18,40 @@ $options['logos'] = wp_get_attachment_image($logo, array($size, $size), false);
 
 		</div><!-- .site-content -->
 <div class="clear"></div>
-<footer id="colophon" class="footer" role="contentinfo">
-<div class="container">
 <div class="footer-top">
+<div class="container">
+<div class="col-md-9 center-block floatnone">
 <ul class="footerblock">
-<li class="col-md-3 noPadd-lft">
-    <div class="footerblock-img lft">
-        <img src="<?php bloginfo( 'template_url' ); ?>/images/delivery.jpg" alt="">
-    </div>
-    <div class="col-sm-8 noPadd">
-        <h5>FREE DELIVERY</h5>
-        <p>On Order Above $680.00</p>
-    </div>
+<li class="col-md-4 noPadd-lft">
+        <img src="<?php bloginfo( 'template_url' ); ?>/images/shipping-return.png" alt="">
+
+        <h5>Shipping & Returns</h5>
+        <p>Worldwide shipping to Selected Country</p>
+
 </li>
-<li class="col-md-3 noPadd"> <div class="footerblock-img lft">
-        <img src="<?php bloginfo( 'template_url' ); ?>/images/money_back.jpg" alt="">
-    </div>
-    <div class="col-sm-9 noPadd">
-        <h5>100% MONEY BACK</h5>
-        <p>30 Days Money Back Guarantee</p>
-    </div></li>
-<li class="col-md-3 noPadd">
-    <div class="footerblock-img lft">
-        <img src="<?php bloginfo( 'template_url' ); ?>/images/call_order.jpg" alt="">
-    </div>
-    <div class="col-sm-8 noPadd">
-        <h5>Call to Order</h5>
-        <p><a href="tel:<?php echo $options['phone_num']; ?>"><?php echo $options['phone_num']; ?></a></p>
-    </div></li>
-<li class="col-md-3 noPadd-rht"> <div class="footerblock-img lft">
-        <img src="<?php bloginfo( 'template_url' ); ?>/images/support.png" alt="">
-    </div>
-    <div class="col-sm-8 noPadd">
-        <h5>SUPPORT CENTER</h5>
-        <p>Feel free to contact us</p>
-    </div></li>
+<li class="col-md-4 noPadd-lft">
+        <img src="<?php bloginfo( 'template_url' ); ?>/images/shipping-return.png" alt="">
+
+        <h5>Shipping & Returns</h5>
+        <p>Worldwide shipping to Selected Country</p>
+
+</li>
+<li class="col-md-4 noPadd-lft">
+        <img src="<?php bloginfo( 'template_url' ); ?>/images/shipping-return.png" alt="">
+
+        <h5>Shipping & Returns</h5>
+        <p>Worldwide shipping to Selected Country</p>
+
+</li>
+
 </ul>
 </div>
-<div class="footer-bottom col-md-12 noPadd">
-         <div class="footerboxes col-md-3">
+</div>
+</div><!--.footer-top-->
+<div class="clear"></div>
+<footer id="colophon" class="footer" role="contentinfo">
+<div class="container">
+<div class="footerboxes col-md-3">
              <h3>About us</h3>
              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Donec odio. Quisque volutpat mattis eros.</p>
              <div class="footer-social-icons">
@@ -65,40 +60,20 @@ $options['logos'] = wp_get_attachment_image($logo, array($size, $size), false);
                    <li><a href="#_"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                  
                </ul>
-                <div class="clear"></div>
-                 <div class="copyrights"><?php echo $options['copyright'] ; ?>
-			   </div>
+
                </div><!--.footer-social-icons-->
          </div>
-         <div class="footerboxes col-md-3">
+<div class="footerboxes col-md-3">
              <h3>Links</h3>
               <div class="footer-menus">
        <?php $defaults = array( 'menu' => 'main-menu', 'container' => ' ', 'container_class' => '', 'container_id' => '', 'menu_class' => '', 'theme_location' => 'primarys' );
 wp_nav_menu( $defaults ); ?>
     </div>
          </div>
-         <div class="footerboxes col-md-3">
-             <h3>Opening hours</h3>
-<p>Monday To Friday<br>
-9:00 Am To 5:00 Pm</p>
-<p>Saturday<br>
-9:00 Am to 12:00 Pm</p>
-        <p>Sunday<br />
-        Closed
-        </p>
-         </div>
-         <div class="footerboxes col-md-3">
-             <h3>Quick Contact</h3>
-             <div class="clear"></div>
-             <?php echo do_shortcode('[contact-form-7 id="20" title="Quick Contact"]');?>
-         </div><!--.footerboxes-->
-         
-			 
-              
-               
-			</div><!-- .footer-bottom -->
-			</div><!--.container--->
-		</footer><!-- .site-footer -->
+ <div class="clear"></div>
+<div class="copyrights"><?php echo $options['copyright'] ; ?></div>
+</div><!--.container--->
+</footer><!-- .site-footer -->
 </div><!-- .site -->
 
 <?php wp_footer(); ?>

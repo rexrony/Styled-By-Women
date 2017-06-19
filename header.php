@@ -63,12 +63,12 @@
             <li><a href="#_"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
             <li><a href="#_"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
            </ul>
-        </section>
-</div>
-   <div class="woo-login">
+         </section>
+          </div>
+   <div class="woo-login rht">
        <ul>
-           <li><a href="#">a</a></li>
-           <li>  <a class="cart-customlocation" href="<?php echo wc_get_cart_url(); ?>" title="<?php _e( 'View your shopping cart' ); ?>"><?php echo sprintf ( _n( '%d item', '%d items', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?> </a></li>
+           <li><a href="#"><img src="<?php bloginfo( 'template_url' ); ?>/images/man.png" alt=""></a></li>
+           <li><a href="#"><img src="<?php bloginfo( 'template_url' ); ?>/images/shopping-bag.png" alt=""></a></li>
        </ul>
    </div>
     </div><!--.container--->
