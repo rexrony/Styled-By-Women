@@ -105,6 +105,8 @@ wp_nav_menu( $defaults ); ?>
 <script src="<?php bloginfo( 'template_url' ); ?>/js/jquery.min.js" type="text/javascript"></script>	
 	<script src="<?php bloginfo( 'template_url' ); ?>/js/bootstrap.js"></script>
   <script src="<?php bloginfo( 'template_url' ); ?>/js/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script src="<?php bloginfo( 'template_url' ); ?>/js/script.js"></script>
+
   <script type="text/javascript">
     $(document).on('ready', function() {
       $(".slide-con").slick({

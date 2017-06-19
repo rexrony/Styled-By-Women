@@ -533,3 +533,43 @@ add_action( 'init', 'jk_remove_wc_breadcrumbs' );
 function jk_remove_wc_breadcrumbs() {
     remove_action( 'woocommerce_before_main_content', 'woocommerce_breadcrumb', 20, 0 );
 }
+
+
+
+function cptui_register_my_cpts_slider_home() {
+
+	/**
+	 * Post Type: Slides home.
+	 */
+
+	$labels = array(
+		"name" => __( 'Slides home', '' ),
+		"singular_name" => __( 'Slide', '' ),
+	);
+
+	$args = array(
+		"label" => __( 'Slides home', '' ),
+		"labels" => $labels,
+		"description" => "",
+		"public" => true,
+		"publicly_queryable" => true,
+		"show_ui" => true,
+		"show_in_rest" => false,
+		"rest_base" => "",
+		"has_archive" => false,
+		"show_in_menu" => true,
+		"exclude_from_search" => false,
+		"capability_type" => "post",
+		"map_meta_cap" => true,
+		"hierarchical" => false,
+		"rewrite" => array( "slug" => "slider_home", "with_front" => true ),
+		"query_var" => true,
+		"menu_icon" => "dashicons-format-gallery",
+		"supports" => array( "title", "editor", "thumbnail" ),
+	);
+
+	register_post_type( "slider_home", $args );
+}
+
+add_action( 'init', 'cptui_register_my_cpts_slider_home' );
+

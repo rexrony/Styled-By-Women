@@ -1413,18 +1413,22 @@ body.no-sidebar:not(.search-results) article:not(.type-page) .entry-footer {
 .padd50{padding: 50px 0;}
 
 .mainheader {min-height:164px; position: relative;padding:0px 0 0 0;}
-.headertop{width: 100%; min-height: 35px; display: block; background: #000; color:#d0d0d0; line-height: 35px;  }
+.headertop{width: 100%; min-height: 42px; display: block; background: #fff; line-height: 35px;  }
 .headertop i{font-size: 15px;}
 .headerbottom{width: 100%; min-height: 212px; position: relative; background:url(images/menu-bckgrnd.jpg) repeat-x #f9b213; background-size: 100% 100%;padding: 0 0 0 0;}
 .check-out{ text-transform: uppercase; }
 .check-out a{ color:#d0d0d0; -webkit-transition: all 0.7s ease;
 transition: all 0.7s ease; }
 .check-out a:hover{text-shadow: 0px 0 15px #fff; font-weight: 600;}
-.social-top{float: right;}
+.social-top{float:left;}
 .social-top ul{margin: 0px; padding: 0px; list-style: none;}
 .social-top ul li{display: inline-block; float: left; margin: 0 0px 0 5px;    padding: 0 5px}
 .social-top ul li a{width: 15px; height: 10px;}
 .social-top ul li a i{color: #fcb314;}
+.social-top ul li{display: inline-block; float: left; margin:0px; width: 41px; height: 41px; padding: 0px;  text-align: center; border-left: 1px solid #dbdbdb;}
+.social-top ul li:nth-child(3){border-right: 1px solid #dbdbdb;}
+.social-top ul li a{ color: #cacaca;}
+.social-top ul li a i{color: #cacaca;font-size: 16px;}
 
 .head-right{padding: 0px 0px 0 0px;color: #ff0000; font-size: 16px;top: 70px;}
     .head-right a{color: #ff0000;}
