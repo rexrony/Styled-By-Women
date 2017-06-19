@@ -53,7 +53,7 @@ textarea{overflow:auto;vertical-align:top}
 optgroup{font-weight:bold}
 .menu-item-has-children a:after,.social-navigation a:before,.dropdown-toggle:after,.bypostauthor > article .fn:after,.comment-reply-title small a:before,.pagination .prev:before,.pagination .next:before,.pagination .nav-links:before,.pagination .nav-links:after,.search-submit:before{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-family:"Genericons";font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;line-height:1;speak:none;text-align:center;text-decoration:inherit;text-transform:none;vertical-align:top}
 button,input,select,textarea,a{outline: none;}
-h1,h2,h3,h4,h5,h6{clear:both; font-weight: 400; margin: 0px 0 15px 0;}
+h1,h2,h3,h4,h5,h6{clear:both; font-weight: 300; margin: 0px 0 15px 0;}
 dfn,cite,em,i{font-style:italic}
 blockquote{border:0 solid #1a1a1a;border-left-width:4px;color:#686868;font-size:19px;font-size:1.1875rem;font-style:italic;line-height:1.4736842105;margin:0 0 1.4736842105em;overflow:hidden;padding:0 0 0 1.263157895em}
 blockquote,q{quotes:none}
