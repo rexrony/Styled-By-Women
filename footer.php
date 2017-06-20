@@ -51,17 +51,17 @@ $options['logos'] = wp_get_attachment_image($logo, array($size, $size), false);
 <div class="clear"></div>
 <footer id="colophon" class="footer" role="contentinfo">
 <div class="container">
-<div class="footerboxes col-md-3">
-             <h5>MANUFACTURING UNIT</h5>
-             <p><img src="<?php bloginfo( 'template_url' ); ?>/images/footer-img.png" alt=""></p>
-
-         </div>
-<div class="footerboxes col-md-3">
+<div class="footerboxes col-md-4">
+ <h5>MANUFACTURING UNIT</h5>
+ <p><img src="<?php bloginfo( 'template_url' ); ?>/images/footer-img.png" alt=""></p>
+</div>
+<div class="footerboxes col-md-4">
    <div class="footer-menus">
    <?php $defaults = array( 'menu' => 'main-menu', 'container' => ' ', 'container_class' => '', 'container_id' => '', 'menu_class' => '', 'theme_location' => 'primarys' );
 wp_nav_menu( $defaults ); ?>
    </div>
 </div>
+<div class="footerboxes col-md-4"></div>
  <div class="clear"></div>
 <div class="copyrights"><?php echo $options['copyright'] ; ?></div>
 </div><!--.container--->

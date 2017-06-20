@@ -1554,13 +1554,15 @@ box-shadow: 0px 3px 5px 1px rgba(205,205,205,1);
     .home-cats .catstitle h3:after{content: ""; display: block; width: 18px; height: 2px; background: #fff;  position: absolute; top:31px;}
 .home-cats .catstitle span{font-size: 18px; text-transform: uppercase; color: #fff;font-size: 300;}
 /*****Footer******/
-.footer{min-height:322px; width: 100%;color: #707070;margin:0px 0 0 0; padding: 20px 0 0 0; background: url(images/footer-bckgrnd.jpg) no-repeat center; overflow: hidden;}
+.footer{min-height:322px; width: 100%;color: #707070;margin:0px 0 0 0; padding:40px 0 0 0; background: url(images/footer-bckgrnd.jpg) no-repeat center; overflow: hidden;}
 
 .footer-top{min-height:121px; width: 100%; padding:10px 0 5px 0; margin-bottom: 10px; position: relative;  }
 .footer-bottom{width: 100%;min-height: 241px; padding:10px 0;  bottom: 0px; position:relative; }
 .footerblock{margin: 0px; padding: 0px; list-style: none;}
 .footerblock li{display: inline-block; text-align: center;}
+.footerblock li:nth-child(1),.footerblock li:nth-child(2){border-right: 2px solid #dddddd;}
 .footerboxes{margin: 0 0 15px 0;}
+.footerboxes h5{font-size: 16px; text-transform: uppercase;color: #fff; }
 .footerblock-img{margin: 0 8px 10px 0;}
 .footerblock h5{color: #000; text-transform: uppercase; font-weight:400; font-size: 20px; margin: 11px 0 2px 0;}
 .footerblock p{margin: 0px; font-size: 12px; font-weight:400;color: #666666; font-size: 16px;}
@@ -1573,7 +1575,7 @@ box-shadow: 0px 3px 5px 1px rgba(205,205,205,1);
 .footer-menus i{color: #707070;}
 .footer-menus ul{margin:15px 0 0 0px; padding: 0px 0 0 5px; list-style:none;}
 .footer-menus ul li{margin: 6px 0;}
-.footer-menus ul li a{color: #707070;font-size: 14px;font-weight: 400; text-transform: capitalize;border-bottom: 0px;}
+.footer-menus ul li a{color: #fff;font-size: 14px;font-weight: 400; text-transform: capitalize;border-bottom: 0px;}
 
 /******footer-menu 2******/
 .footer-menu{min-height: 80px; float: none;}
