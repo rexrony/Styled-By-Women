@@ -39,8 +39,19 @@ get_header(); ?>
 <?php endforeach; ?>
     </div><!--.container--->
 </div>
+<div class="clear"></div>
+<div class="lastest-trends-wrap">
+    <div class="container">
+        <div class="heading-title">
+            <h2>LATEST TRENDS</h2>
+        </div><!--.heading-title-->
+        <div class="clear"></div>
+        <div class="lastesttrends">
+            s
+        </div>
 
-
+    </div>
+</div>
 
 <?php get_footer(); ?>	
 
