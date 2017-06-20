@@ -61,9 +61,14 @@ $options['logos'] = wp_get_attachment_image($logo, array($size, $size), false);
 wp_nav_menu( $defaults ); ?>
    </div>
 </div>
-<div class="footerboxes col-md-4"></div>
+<div class="footerboxes col-md-4">
+    <h5>ACCESSORIES</h5>
+    <img src="<?php bloginfo( 'template_url' ); ?>/images/accessories.jpg" alt="">
+</div>
  <div class="clear"></div>
-<div class="copyrights"><?php echo $options['copyright'] ; ?></div>
+<div class="copyrights col-md-12">
+<?php echo $options['copyright'] ; ?>
+</div>
 </div><!--.container--->
 </footer><!-- .site-footer -->
 </div><!-- .site -->
@@ -72,6 +77,9 @@ wp_nav_menu( $defaults ); ?>
 <script src="<?php bloginfo( 'template_url' ); ?>/js/jquery.min.js" type="text/javascript"></script>	
 	<script src="<?php bloginfo( 'template_url' ); ?>/js/bootstrap.js"></script>
   <script src="<?php bloginfo( 'template_url' ); ?>/js/slick.js" type="text/javascript" charset="utf-8"></script>
+
+  <script src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js"></script>
+<script src="<?php bloginfo( 'template_url' ); ?>/js/jquery.slicknav.js"></script>
   <script src="<?php bloginfo( 'template_url' ); ?>/js/script.js"></script>
 
 </body>

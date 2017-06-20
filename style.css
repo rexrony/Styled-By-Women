@@ -1525,7 +1525,7 @@ color: #515151;
 .slick-active .cus_dot{background: #ae711d !important;}
 
 /*******contentarea*********/
-.contentarea-index{margin: 40px 0 0 0; position: relative;}
+.contentarea-index{margin: 30px 0 15px 0; position: relative;}
 .contentarea{padding: 30px 0 25px; margin:0px 0 0;position: relative;background: #f2f2f2;}
 .content-column{padding: 0 15px;}
 .inner-con{background: #fff; position: relative; min-height: 410px; height: auto; width: 100%; display: inline-block; padding:20px 30px; margin: 0 0 15px 0;
@@ -1584,7 +1584,7 @@ box-shadow: 0px 3px 5px 1px rgba(205,205,205,1);
 .footer-menu ul li a{color: #707070;text-transform:uppercase; position: relative;  display: block; font-size:14px; font-weight:400;padding: 30px 15px;}
 .footer-logo{text-align: center; width: 100%; position: relative; min-height: 70px;margin: 0 0 5px 0;}
 .footer-logo img{margin: auto; display: block; bottom: -19px;position: relative; background:#022132;padding: 0 25px;z-index: 99;}
-.copyrights{padding: 12px 0 0; color: #585858; font-size: 12px;}
+.copyrights{padding: 12px 0 0; color: #fff; border-top: 1px solid #0d0d0d; font-size: 12.5px; text-align: center;}
 
 .footer-social-icons{padding:14px 0 10px; margin: auto; display: block;width: 100%; min-height: 27px;}
 .footer-social-icons ul{margin: 0px; padding: 0px; list-style: none;}
@@ -1875,6 +1875,12 @@ input[type="number"] {
 .woo-login ul li{float: left; display: inline-block;width: 122px; height: 41px; text-align: center; }
 .woo-login ul li:nth-child(1){background: #fe3760;}
 .woo-login ul li:nth-child(2){background: #f41341;}
+
+.prod-cats{width: 100%; min-height: 600px; border-bottom: 1px solid #cacaca; padding: 20px 0 30px;  margin-bottom: 15px;}
+.prodcats{margin-bottom: 15px;}
+.cat-home-box{border:1px solid #cacaca; padding: 20px;}
+.cat-home-box h3{ text-align: center; margin: 15px auto;font-size: 22px; color: #000; text-transform: uppercase;}
+.shp-mre{color: #df0000; text-align: center; text-transform: uppercase; font-size: 15px; width: 100%; margin: 2px auto;    display: block;}
 
 @media (min-width:280px) and (max-width:480px){}
 @media (min-width:481px) and (max-width:560px){}
