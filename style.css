@@ -17,7 +17,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
  */
 
 html{font-family: 'Ubuntu', sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
-body{margin:0;font-size: 1.7em; color:#707070;font-family: 'Ubuntu', sans-serif;}
+body{margin:0;font-size: 1.7em; color:#000;font-family: 'Ubuntu', sans-serif;}
 article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}
 audio,canvas,progress,video{display:inline-block;vertical-align:baseline}
 audio:not([controls]){display:none;height:0}
@@ -53,7 +53,7 @@ textarea{overflow:auto;vertical-align:top}
 optgroup{font-weight:bold}
 .menu-item-has-children a:after,.social-navigation a:before,.dropdown-toggle:after,.bypostauthor > article .fn:after,.comment-reply-title small a:before,.pagination .prev:before,.pagination .next:before,.pagination .nav-links:before,.pagination .nav-links:after,.search-submit:before{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-family:"Genericons";font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;line-height:1;speak:none;text-align:center;text-decoration:inherit;text-transform:none;vertical-align:top}
 button,input,select,textarea,a{outline: none;}
-h1,h2,h3,h4,h5,h6{clear:both; font-weight: 400; margin: 0px 0 15px 0;}
+h1,h2,h3,h4,h5,h6{clear:both; font-weight: 300; margin: 0px 0 15px 0;}
 dfn,cite,em,i{font-style:italic}
 blockquote{border:0 solid #1a1a1a;border-left-width:4px;color:#686868;font-size:19px;font-size:1.1875rem;font-style:italic;line-height:1.4736842105;margin:0 0 1.4736842105em;overflow:hidden;padding:0 0 0 1.263157895em}
 blockquote,q{quotes:none}
@@ -1413,7 +1413,7 @@ body.no-sidebar:not(.search-results) article:not(.type-page) .entry-footer {
 .padd50{padding: 50px 0;}
 
 .mainheader {min-height:164px; position: relative;padding:0px 0 0 0;}
-.headertop{width: 100%; min-height: 42px; display: block; background: #fff; line-height: 35px;  }
+.headertop{width: 100%; min-height: 41px; display: block; background: #fff; line-height: 35px;  }
 .headertop i{font-size: 15px;}
 .headerbottom{width: 100%; height: 123px; position: relative; background:#000; padding: 0 0 0 0;}
 .check-out{ text-transform: uppercase; }
@@ -1424,7 +1424,6 @@ transition: all 0.7s ease; }
 .social-top ul{margin: 0px; padding: 0px; list-style: none;}
 .social-top ul li{display: inline-block; float: left; margin: 0 0px 0 5px;    padding: 0 5px}
 .social-top ul li a{width: 15px; height: 10px;}
-.social-top ul li a i{color: #fcb314;}
 .social-top ul li{display: inline-block; float: left; margin:0px; width: 41px; height: 41px; padding: 0px;  text-align: center; border-left: 1px solid #dbdbdb;}
 .social-top ul li:nth-child(3){border-right: 1px solid #dbdbdb;}
 .social-top ul li a{ color: #cacaca;}
@@ -1526,7 +1525,7 @@ color: #515151;
 .slick-active .cus_dot{background: #ae711d !important;}
 
 /*******contentarea*********/
-.contentarea-index{margin: 40px 0 0 0; position: relative;}
+.contentarea-index{margin: 30px 0 15px 0; position: relative;}
 .contentarea{padding: 30px 0 25px; margin:0px 0 0;position: relative;background: #f2f2f2;}
 .content-column{padding: 0 15px;}
 .inner-con{background: #fff; position: relative; min-height: 410px; height: auto; width: 100%; display: inline-block; padding:20px 30px; margin: 0 0 15px 0;
@@ -1537,8 +1536,11 @@ box-shadow: 0px 3px 5px 1px rgba(205,205,205,1);
 /****featuredimg-container*********/
 .featuredimg-container{min-height: 205px; position: relative;}
 .featuredimg-container img{width: 100%;min-height: 205px; }
-.heading-title{width: 100%; min-height: 25px; position: absolute; text-align:left; margin: 0px 0;top: 40%;}
-.heading-title h2{color: #fff; font-size: 45px; font-weight:600; text-transform: uppercase;}
+
+/*****heading-title********/
+.heading-title{width: 100%; min-height: 25px;text-align:center; margin: 0px 0;}
+.heading-title h2{color: #000; font-size: 46px; font-weight:300; text-transform: uppercase;}
+.heading-title h2:after{border-bottom: 3px solid #f41341; content: ""; display: block; margin: 0px auto; width: 162px; height: 3px;top: 15px;position: relative; }
 
 /*******. home-cats-lft********/
 .home-cats-lft{position: relative;min-height: 205px; max-height: 503px; height: auto;     }
@@ -1555,16 +1557,18 @@ box-shadow: 0px 3px 5px 1px rgba(205,205,205,1);
     .home-cats .catstitle h3:after{content: ""; display: block; width: 18px; height: 2px; background: #fff;  position: absolute; top:31px;}
 .home-cats .catstitle span{font-size: 18px; text-transform: uppercase; color: #fff;font-size: 300;}
 /*****Footer******/
-.footer{min-height:440px; width: 100%;color: #707070;margin:0px 0 0 0; padding: 20px 0 0 0; background: #1f1f1f; overflow: hidden;}
+.footer{min-height:322px; width: 100%;color: #707070;margin:0px 0 0 0; padding:40px 0 0 0; background: url(images/footer-bckgrnd.jpg) no-repeat center; overflow: hidden;}
 
-.footer-top{min-height:100px; width: 100%; padding:20px 0 5px 0; margin-bottom: 10px; position: relative;  border-bottom: 1px solid #000;}
+.footer-top{min-height:121px; width: 100%; padding:10px 0 5px 0; margin-bottom: 10px; position: relative;  }
 .footer-bottom{width: 100%;min-height: 241px; padding:10px 0;  bottom: 0px; position:relative; }
 .footerblock{margin: 0px; padding: 0px; list-style: none;}
-.footerblock li{display: inline-block;}
+.footerblock li{display: inline-block; text-align: center;}
+.footerblock li:nth-child(1),.footerblock li:nth-child(2){border-right: 2px solid #dddddd;}
 .footerboxes{margin: 0 0 15px 0;}
+.footerboxes h5{font-size: 16px; text-transform: uppercase;color: #fff; }
 .footerblock-img{margin: 0 8px 10px 0;}
-.footerblock h5{color: #fcb314; text-transform: uppercase; font-weight: 600; font-size: 18px; margin: 11px 0 2px 0;}
-.footerblock p{margin: 0px; font-size: 12px; font-weight: lighter;}
+.footerblock h5{color: #000; text-transform: uppercase; font-weight:400; font-size: 20px; margin: 11px 0 2px 0;}
+.footerblock p{margin: 0px; font-size: 12px; font-weight:400;color: #666666; font-size: 16px;}
 .footerblock p a{color: #646464;}
 
 .footerboxes h3{font-weight:400; font-size: 22px; margin: 0 0 15px 0; text-transform: capitalize;color: #fff;}
@@ -1574,7 +1578,7 @@ box-shadow: 0px 3px 5px 1px rgba(205,205,205,1);
 .footer-menus i{color: #707070;}
 .footer-menus ul{margin:15px 0 0 0px; padding: 0px 0 0 5px; list-style:none;}
 .footer-menus ul li{margin: 6px 0;}
-.footer-menus ul li a{color: #707070;font-size: 14px;font-weight: 400; text-transform: capitalize;border-bottom: 0px;}
+.footer-menus ul li a{color: #fff;font-size: 14px;font-weight: 400; text-transform: capitalize;border-bottom: 0px;}
 
 /******footer-menu 2******/
 .footer-menu{min-height: 80px; float: none;}
@@ -1583,7 +1587,7 @@ box-shadow: 0px 3px 5px 1px rgba(205,205,205,1);
 .footer-menu ul li a{color: #707070;text-transform:uppercase; position: relative;  display: block; font-size:14px; font-weight:400;padding: 30px 15px;}
 .footer-logo{text-align: center; width: 100%; position: relative; min-height: 70px;margin: 0 0 5px 0;}
 .footer-logo img{margin: auto; display: block; bottom: -19px;position: relative; background:#022132;padding: 0 25px;z-index: 99;}
-.copyrights{padding: 12px 0 0; color: #585858; font-size: 12px;}
+.copyrights{padding: 12px 0 0; color: #fff; border-top: 1px solid #0d0d0d; font-size: 12.5px; text-align: center;}
 
 .footer-social-icons{padding:14px 0 10px; margin: auto; display: block;width: 100%; min-height: 27px;}
 .footer-social-icons ul{margin: 0px; padding: 0px; list-style: none;}
@@ -1868,6 +1872,19 @@ input[type="number"] {
 .woocommerce div.product p.price, .woocommerce div.product span.price{color: #bf1e2e; font-size: 22px; padding: 20px 0 10px 0; font-weight: 600;}
 .variations select{margin: 0 0 15px 0; padding: 0px;}
 .woocommerce-variation-price{margin: 0 0 15px;}
+
+.woo-login{}
+.woo-login ul{}
+.woo-login ul li{float: left; display: inline-block;width: 122px; height: 41px; text-align: center; }
+.woo-login ul li:nth-child(1){background: #fe3760;}
+.woo-login ul li:nth-child(2){background: #f41341;}
+
+.prod-cats{width: 100%; min-height: 600px; border-bottom: 1px solid #cacaca; padding: 20px 0 30px;  margin-bottom: 15px;}
+.prodcats{margin-bottom: 15px;}
+.cat-home-box{border:1px solid #cacaca; padding: 20px;}
+.cat-home-box h3{ text-align: center; margin: 15px auto;font-size: 22px; color: #000; text-transform: uppercase;}
+.shp-mre{color: #df0000; text-align: center; text-transform: uppercase; font-size: 15px; width: 100%; margin: 2px auto;    display: block;}
+
 @media (min-width:280px) and (max-width:480px){}
 @media (min-width:481px) and (max-width:560px){}
 @media (min-width:561px) and (max-width:670px){}

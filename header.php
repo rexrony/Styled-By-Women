@@ -63,8 +63,14 @@
             <li><a href="#_"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
             <li><a href="#_"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
            </ul>
-        </section>
-</div>
+         </section>
+          </div>
+   <div class="woo-login rht">
+       <ul>
+           <li><a href="#"><img src="<?php bloginfo( 'template_url' ); ?>/images/man.png" alt=""></a></li>
+           <li><a href="#"><img src="<?php bloginfo( 'template_url' ); ?>/images/shopping-bag.png" alt=""></a></li>
+       </ul>
+   </div>
     </div><!--.container--->
 </div><!--.headertop-->
 <div class="clear"></div>
@@ -75,10 +81,10 @@
   </div>
     </div>
    <div class="head-menu col-md-9 pull-right">
-        <div class="mainmenu noPadd col-md-12 rht">
+    <div class="mainmenu noPadd col-md-12 rht">
    <?php $defaults = array( 'menu' => 'main-menu', 'container' => ' ', 'container_class' => '', 'container_id' => '', 'menu_class' => '', 'theme_location' => 'primary' );
 wp_nav_menu( $defaults ); ?>
-    </div>
+    </div><!--.mainmenu-->
 </div><!--.head-menu-->
 </div><!--.container-->
 </div>
